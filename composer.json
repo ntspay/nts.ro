@@ -6,7 +6,7 @@
             "email": "ion@aot.ro"
         }
     ],
-    "description": "This is nts.ro main website",
+    "description": "This is the source code of our official website.",
     "keywords": ["website", "twig", "template"],
     "require": {
         "php": "^8.0.2",
