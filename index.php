@@ -25,4 +25,7 @@ $products = [
 ];
 
 // Render our view
-echo $twig->render('index.twig', ['products' => $products] );
+// echo $twig->render('index.twig', ['products' => $products] );
+
+$template = $twig->load('index.twig');
+echo $template->renderBlock('content', array('products' => $products));

@@ -8,4 +8,9 @@ use Twig\Environment;
 
 $loader = new FilesystemLoader('templates/');
 
-$twig = new Environment($loader);
+$twig = new Environment($loader,
+  [
+    'cache' => 'storage/cache/',
+    'debug' => true
+  ]
+);
