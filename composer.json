@@ -1,0 +1,17 @@
+{
+    "name": "ntspay/website",
+    "authors": [
+        {
+            "name": "Ion Cladico",
+            "email": "ion@aot.ro"
+        }
+    ],
+    "description": "This is nts.ro main website",
+    "keywords": ["website", "twig", "template"],
+    "require": {
+        "php": "^8.0.2",
+        "twig/twig": "^3.4"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
