@@ -1,12 +1,12 @@
 <?php
 
 // Load our autoloader
-require_once 'vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
 use Twig\Loader\FilesystemLoader;
 use Twig\Environment;
 
-$loader = new FilesystemLoader('templates/');
+$loader = new FilesystemLoader('resources/views/');
 
 $twig = new Environment($loader,
   [
@@ -14,3 +14,5 @@ $twig = new Environment($loader,
     'debug' => true
   ]
 );
+
+// echo __DIR__.'/../vendor/autoload.php';
