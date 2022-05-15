@@ -1,6 +1,6 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/bootstrap/app.php';
+require_once 'bootstrap/app.php';
 
 // Create a product list
 $products = [
