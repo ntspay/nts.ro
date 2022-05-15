@@ -1,8 +1,8 @@
 <?php
 
 define('APP_START', microtime(true));
-define('RESOURCES', dirname(__FILE__, 2).'/resources');
-define('STORAGE', dirname(__FILE__, 2).'/storage');
+define('RESOURCES', __DIR__.'/resources');
+define('STORAGE', __DIR__.'/storage');
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +14,7 @@ define('STORAGE', dirname(__FILE__, 2).'/storage');
 | into the script here so we don't need to manually load our classes.
 |
 */
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
 use Twig\Loader\FilesystemLoader;
 use Twig\Environment;
